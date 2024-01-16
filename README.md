@@ -57,3 +57,8 @@ sudo docker run -d -v /var/lib/node_bevm_test_storage:/root/.local/share/bevm bt
 حالا با کد زیر لاگ بگیرید که همه چیز به خوبی داره کار میکنه
 
 sudo docker logs -f 4bd1990d73dc9c91f260ef26a7f4c30c90fbb4679ea63395f9b2c7c55631a5e2
+
+در پایان هم اگر نودتون به درستی کار کنه تو لینک زیر لیست میشه
+https://telemetry.bevm.io/
+
+امیدوارم استفاده کرده باشید 🫶🫶🫶
