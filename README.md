@@ -42,6 +42,10 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 sudo apt-get update
 sudo apt-get upgrade
+
+
+
+
 نصب پروژه و اجرا:
 
 .
