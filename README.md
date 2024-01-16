@@ -13,6 +13,10 @@ RAM : 2 GB
 SSD : 300 GB
 
 خب بریم برای نصب داکر : 
+
+.
+.
+
 sudo apt-get remove docker docker-engine docker.io containerd runc
 
 sudo apt-get update
@@ -39,6 +43,10 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 sudo apt-get update
 sudo apt-get upgrade
 نصب پروژه و اجرا:
+
+.
+.
+
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 
@@ -54,7 +62,7 @@ sudo docker run -d -v /var/lib/node_bevm_test_storage:/root/.local/share/bevm bt
 
 4bd1990d73dc9c91f260ef26a7f4c30c90fbb4679ea63395f9b2c7c55631a5e2
 
-حالا با کد زیر لاگ بگیرید که همه چیز به خوبی داره کار میکنه
+حالا با کد زیر لاگ بگیرید کدی ک بالا داد رو جایگزین کد اخر دستور زیر کنید که همه چیز به خوبی داره کار میکنه
 
 sudo docker logs -f 4bd1990d73dc9c91f260ef26a7f4c30c90fbb4679ea63395f9b2c7c55631a5e2
 
